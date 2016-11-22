@@ -1,0 +1,40 @@
+body{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	}
+
+#contenedor{
+	width: 30vw;
+	height: 30vw;
+	display: flex;
+	background-color: yellow;
+	flex-wrap: wrap;
+}
+
+.numero{
+	width: 24.5%;
+	height: 19.5%;
+	background-color: blue;
+	text-align: center;
+	font-size: 5vw;
+	margin: 0.16%;
+	color: white;
+}
+
+.signo{
+	width: 24.5%;
+	height: 19.5%;
+	background-color: red;
+	text-align: center;
+	font-size: 5vw;
+	margin: 0.16%;
+	color: white;
+}
+#pantalla{
+	width: 99%;
+	height: 19.5%;
+	font-size: 4vw;
+	background-color: orange;
+	text-align: right;
+}
